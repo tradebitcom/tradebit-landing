@@ -1487,7 +1487,7 @@ footer {
   <div class="faq">
     <div class="faq-item"><div class="faq-q">What's the difference between v1 and v2?</div><div class="faq-a">v1 is a single-user personal tool with no monetization. v2 is a production multi-user platform with Telegram Stars payments, SQLite, multilingual UI and an admin panel. If you need a business — choose v2.</div></div>
     <div class="faq-item"><div class="faq-q">Can I run v1 on any server?</div><div class="faq-a">Yes. Any Linux VPS with Python 3.10+ works. Even a free-tier AWS EC2 instance is sufficient.</div></div>
-    <div class="faq-item"><div class="faq-q">Are exchange API keys required?</div><div class="faq-a">For public market data (tickers, order books) — no keys needed. Keys are only required for private endpoints like withdrawal fees.</div></div>
+    <div class="faq-item"><div class="faq-q">Are exchange API keys required?</div><div class="faq-a">Yes, exchange API keys are required for the bot to operate. They are necessary to receive up-to-date real-time data — prices, available networks, and fees — to ensure accurate price difference analysis. API keys are specified in the config.py file and are used only within your project.</div></div>
     <div class="faq-item"><div class="faq-q">Which exchanges are supported?</div><div class="faq-a">All 12: Binance, Bybit, OKX, Gate.io, Bitget, KuCoin, Huobi, MEXC, BingX, HitBTC, Poloniex, Bitfinex.</div></div>
     <div class="faq-item"><div class="faq-q">Can I upgrade from v1 to v2?</div><div class="faq-a">Upgrading from v1 to v2 is not предусмотрено. These are two separate archives with different architectures and data. v1 is designed for a single user, while v2 is a multi-user version with its own database and payment system.</div></div>
     <div class="faq-item"><div class="faq-q">Is the interface in English?</div><div class="faq-a">v1 includes two localized versions — Russian and English. You deploy the required archive (RU or EN).</div></div>
@@ -1592,7 +1592,7 @@ footer {
   <h2>Часто задаваемые <em>вопросы</em></h2>
   <div class="faq">
     <div class="faq-item"><div class="faq-q">В чём разница между v1 и v2?</div><div class="faq-a">v1 — личный инструмент для одного пользователя без монетизации. v2 — продакшн мультипользовательская платформа с Telegram Stars, SQLite, двуязычным интерфейсом и панелью администратора. Нужен бизнес — выбирайте v2.</div></div>
-    <div class="faq-item"><div class="faq-q">Нужны ли API-ключи бирж?</div><div class="faq-a">Для публичных данных (тикеры, ордербуки) — ключи не нужны. Ключи нужны только для приватных эндпоинтов, например для получения комиссий за вывод.</div></div>
+    <div class="faq-item"><div class="faq-q">Нужны ли API-ключи бирж?</div><div class="faq-a">Да, для работы бота требуются API-ключи бирж. Они необходимы для получения актуальных данных в реальном времени — цен, доступных сетей и комиссий, чтобы анализ расхождения стоимости монет был корректным. API-ключи указываются в файле config.py и используются только внутри вашего проекта.</div></div>
     <div class="faq-item"><div class="faq-q">На каком сервере запускать?</div><div class="faq-a">Любой Linux VPS с Python 3.10+. Достаточно даже бесплатного AWS EC2.</div></div>
     <div class="faq-item"><div class="faq-q">Какие биржи поддерживаются?</div><div class="faq-a">Все 12: Binance, Bybit, OKX, Gate.io, Bitget, KuCoin, Huobi, MEXC, BingX, HitBTC, Poloniex, Bitfinex.</div></div>
     <div class="faq-item"><div class="faq-q">Можно ли обновиться с v1 до v2?</div><div class="faq-a">Обновление с v1 до v2 не предусмотрено. Это два отдельных архива с разной архитектурой и данными. v1 предназначена для одного пользователя, а v2 — это многопользовательская версия с собственной базой данных и системой оплаты.</div></div>
@@ -1910,8 +1910,7 @@ footer {
       <div class="faq-item">
         <div class="faq-q">Werden API-Keys für Börsen benötigt?</div>
         <div class="faq-a">
-          Für öffentliche Marktdaten (Ticker, Orderbuch) sind keine Keys nötig.
-          Keys werden nur für private Endpunkte (z.&nbsp;B. Auszahlungsgebühren) gebraucht.
+          Ja, für den Betrieb des Bots sind API-Schlüssel der Börsen erforderlich. Sie werden benötigt, um aktuelle Echtzeitdaten — Preise, verfügbare Netzwerke und Gebühren — zu erhalten und eine korrekte Analyse von Preisunterschieden zu gewährleisten. Die API-Schlüssel werden in der Datei config.py eingetragen und ausschließlich innerhalb Ihres Projekts verwendet.
         </div>
       </div>
       <div class="faq-item">
@@ -2250,8 +2249,7 @@ footer {
       <div class="faq-item">
         <div class="faq-q">Чи потрібні API-ключі бірж?</div>
         <div class="faq-a">
-          Для публічних даних (тікери, ордербуки) ключі не потрібні. Вони потрібні лише
-          для приватних endpoint (наприклад, комісії на вивід).
+          Так, для роботи бота потрібні API-ключі бірж. Вони необхідні для отримання актуальних даних у режимі реального часу — цін, доступних мереж і комісій — щоб аналіз розбіжностей у вартості монет був коректним. API-ключі вказуються у файлі config.py і використовуються лише всередині вашого проєкту.
         </div>
       </div>
       <div class="faq-item">
